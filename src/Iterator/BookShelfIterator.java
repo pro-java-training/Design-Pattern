@@ -2,7 +2,7 @@ package Iterator;
 
 public class BookShelfIterator implements Iterator {
 
-    private BookShelf bookShelf;     // bookShelf 是迭代器器要迭代的集合
+    private BookShelf bookShelf; // bookShelf 是迭代器器要迭代的集合
 
     private int index; // 迭代器指向的位置
 
