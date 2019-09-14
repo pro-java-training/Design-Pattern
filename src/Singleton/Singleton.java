@@ -9,9 +9,10 @@ public class Singleton {
 
     private Singleton() {
         num = new Random().nextInt();
+        slowdown();
     }
 
-    public static Singleton getInstance() {
+    public static synchronized Singleton getInstance() {
         if (singleton == null) {
             singleton = new Singleton();
         }
@@ -20,5 +21,13 @@ public class Singleton {
 
     public int getNum() {
         return num;
+    }
+
+    private void slowdown() {
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+
+        }
     }
 }
