@@ -1,4 +1,7 @@
 # Design-Pattern
+
+### generic 分支是泛型版本
+
 23  design patterns
 
      1. Iterator Pattern 迭代器模式

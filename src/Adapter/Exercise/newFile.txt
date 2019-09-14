@@ -1,0 +1,5 @@
+#Written by Delegated FileProperties
+#Sat Sep 14 11:39:26 CST 2019
+day=14
+year=2019
+month=9
