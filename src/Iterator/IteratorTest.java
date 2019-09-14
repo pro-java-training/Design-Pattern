@@ -2,12 +2,12 @@ package Iterator;
 
 public class IteratorTest {
     public static void main(String[] args) {
-        BookShelf bookShelf = new BookShelf(2);
-        bookShelf.appendBook(new Book("C++"));
-        bookShelf.appendBook(new Book("Java"));
-        bookShelf.appendBook(new Book("C"));
-        bookShelf.appendBook(new Book("Python"));
-        Iterator it = bookShelf.iterator();
+        ConcreteSet<Book> books = new ConcreteSet<Book>(4);
+        books.add(new Book("C++"));
+        books.add(new Book("Java"));
+        books.add(new Book("C"));
+        books.add(new Book("Python"));
+        Iterator it = books.getIterator();
 
         while (it.hasNext()) {
             Book book = (Book) it.next();
