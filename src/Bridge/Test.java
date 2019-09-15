@@ -11,10 +11,11 @@ public class Test {
         RandomDisplay display3 = new RandomDisplay(new StringDisplayImpl("hello, Jimmy"));
         display3.randomDisplay(3);
 
-        String filename = "test.txt";
-        CountDisplay display4 = new CountDisplay(new FileDisplayImpl(filename));
-        display4.multiDisplay(3);
+//        String filename = "test.txt";
+//        CountDisplay display4 = new CountDisplay(new FileDisplayImpl(filename));
+//        display4.multiDisplay(3);
 
-
+        IncreaseDisplay display5 = new IncreaseDisplay(new StarDisplayImpl('<', '*', '>'), 1);
+        display5.increaseDisplay(3);
     }
 }
