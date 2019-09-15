@@ -7,5 +7,14 @@ public class Test {
         display1.display();
         display2.display();
         display2.multiDisplay(3);
+
+        RandomDisplay display3 = new RandomDisplay(new StringDisplayImpl("hello, Jimmy"));
+        display3.randomDisplay(3);
+
+        String filename = "test.txt";
+        CountDisplay display4 = new CountDisplay(new FileDisplayImpl(filename));
+        display4.multiDisplay(3);
+
+
     }
 }
