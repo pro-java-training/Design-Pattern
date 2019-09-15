@@ -9,3 +9,7 @@
      3. Template Method Pattern 模板方法模式
      4. Factory Method Pattern  工厂方法模式
      5. Singleton Pattern 单例模式
+     6. Prototype Pattern 原型模式
+     7. Builder Pattern 创建者模式
+     8. Abstract Factory Pattern 抽象工厂模式
+     9. Bridge Pattern 桥接模式
