@@ -1,6 +1,7 @@
 package Visitor;
 
 import Composite.FileTreatException;
+import java.util.Iterator;
 
 public class Test {
     public static void main(String[] args) {
@@ -33,6 +34,26 @@ public class Test {
             Jimmy.add(file);
 
             rootDir.accept(new ListVisitor());
+
+            System.out.println();
+
+            // 查找指定类型的文件
+            System.out.println("Search for specific files:");
+            FileFindVisitor findVisitor = new FileFindVisitor("page");
+            rootDir.accept(findVisitor);
+
+            Iterator it = findVisitor.getFilesIterator();
+            while (it.hasNext()) {
+                File tmpFile = (File) it.next();
+                System.out.println(tmpFile.toString());
+            }
+            System.out.println();
+
+            // 测试 ElementArrayList
+            ElementArrayList list = new ElementArrayList();
+            list.add(usrDir);
+            list.add(binDir);
+            list.accept(new ListVisitor());
 
         } catch (FileTreatException e) {
             e.printStackTrace();
