@@ -34,7 +34,14 @@ public class Test {
             Jimmy.add(new File("note.page", 300));
             Anna.add(new File("paper.page", 400));
 
+            File file = new File("Comp.java", 200);
+            Jimmy.add(file);
+
             rootDir.printList();
+
+            System.out.println();
+
+            System.out.println(file.getPath());
 
         } catch (FileTreatException e) {
             e.printStackTrace();
