@@ -13,3 +13,4 @@
      7. Builder Pattern 创建者模式
      8. Abstract Factory Pattern 抽象工厂模式
      9. Bridge Pattern 桥接模式
+     10. Strategy Pattern 策略模式
