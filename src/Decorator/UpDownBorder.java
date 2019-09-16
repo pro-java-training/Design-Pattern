@@ -1,13 +1,17 @@
 package Decorator;
 
-public class FullBorder extends Border {
-    public FullBorder(Display display) {
+public class UpDownBorder extends Border {
+
+    private char border;
+
+    public UpDownBorder(Display display, char border) {
         super(display);
+        this.border = border;
     }
 
     @Override
     public int getColumns() {
-        return display.getColumns() + 2;
+        return display.getColumns();
     }
 
     @Override
@@ -18,9 +22,9 @@ public class FullBorder extends Border {
     @Override
     public String getRowText(int row) {
         if (row == 0 || row == display.getRows() + 1) {
-            return "+" + makeLine('-', display.getColumns()) + "+";
+            return makeLine(border, display.getColumns());
         } else {
-            return "|" + display.getRowText(row - 1) + "|";
+            return display.getRowText(row - 1);
         }
     }
 
