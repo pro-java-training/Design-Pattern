@@ -14,3 +14,6 @@
      8. Abstract Factory Pattern 抽象工厂模式
      9. Bridge Pattern 桥接模式
      10. Strategy Pattern 策略模式
+     11. Composite Pattern 组合模式
+     12. Decorator Pattern 装饰模式
+     13. Visitor Pattern 访问者模式
