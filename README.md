@@ -22,3 +22,4 @@
    16. Mediator Pattern 中间人模式
    17. Observer Pattern 观察者模式
    18. Memento Pattern 备忘录模式
+   19. State Pattern 状态模式
