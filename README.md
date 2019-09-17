@@ -23,3 +23,4 @@
    17. Observer Pattern 观察者模式
    18. Memento Pattern 备忘录模式
    19. State Pattern 状态模式
+   20. Flyweight Pattern 享元模式
