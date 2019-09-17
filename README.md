@@ -17,3 +17,4 @@
      11. Composite Pattern 组合模式
      12. Decorator Pattern 装饰模式
      13. Visitor Pattern 访问者模式
+     14. Chain of Responsibility Pattern 责任链模式
