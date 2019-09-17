@@ -20,3 +20,4 @@
    14. Chain of Responsibility Pattern 责任链模式
    15. Facade Pattern 窗口模式
    16. Mediator Pattern 中间人模式
+   17. Observer Pattern 观察者模式
