@@ -6,7 +6,7 @@ public class Test {
     public static void main(String[] args) {
         Date date = new Date();
         Player player1 = new Player("James", new WinStrategy(date.getTime()));
-        Player player2 = new Player("Andy", new WinStrategy(date.getTime() - 1000));
+        Player player2 = new Player("Andy", new ProbStrategy(date.getTime() - 1000));
         for (int i = 0; i < 1000; i++) {
             Hand hand1 = player1.nextHand();
             Hand hand2 = player2.nextHand();

@@ -17,7 +17,7 @@ public class ProbStrategy implements Strategy {
             {1, 1, 1}
     };
 
-    public ProbStrategy(int seed) {
+    public ProbStrategy(long seed) {
         random = new Random(seed);
     }
 
