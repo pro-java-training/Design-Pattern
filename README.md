@@ -24,3 +24,5 @@
    18. Memento Pattern 备忘录模式
    19. State Pattern 状态模式
    20. Flyweight Pattern 享元模式
+   21. Proxy Pattern 代理模式
+   22. Command Pattern 命令模式
