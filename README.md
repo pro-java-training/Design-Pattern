@@ -26,3 +26,4 @@
    20. Flyweight Pattern 享元模式
    21. Proxy Pattern 代理模式
    22. Command Pattern 命令模式
+   24. Interpreter Pattern 翻译器模式
